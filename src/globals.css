@@ -11,9 +11,10 @@
 
 * {
     box-sizing: border-box;
+    
 }
 
-html, body {
+html, body, #root {
     display: flex;
     flex-direction: column;
     background-color: #fffdf3;

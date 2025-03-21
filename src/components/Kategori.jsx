@@ -3,7 +3,7 @@ import React from 'react'
 const Kategori = () => {
   return (
     <div className='flex items-center gap[36px]'>
-        <p className="font-dm text-[16px] font-medium leading-[140%] tracking-[0.2px] text-[rgba(51,51,51,0.68)]">
+        <p className="font-dm text-base font-medium leading-[140%] tracking-[0.2px] text-[rgba(51,51,51,0.68)]">
             Kategori
         </p>
     </div>
