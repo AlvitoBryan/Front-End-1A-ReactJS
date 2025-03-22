@@ -18,7 +18,7 @@ const Login = () => {
 
                 <AuthFormContentWrapper
                     inputs={[
-                        <FormInput id="email-input" label="Email" name="email" required type="text"  />,
+                        <FormInput id="login-email-input" label="E-Mail" name="email" required type="text"  />,
                         <InputPassword id="password-input" label="Password" name="password" required type="password"  />
 
                     ]}

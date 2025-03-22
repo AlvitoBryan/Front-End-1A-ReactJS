@@ -10,7 +10,7 @@ const Navigation = () => {
     const isLoginPage = location.pathname === '/login' || location.pathname === '/register';
 
     return(
-        <div className='flex justify-between items-center w-auto p-[12px_120px] border-b border-[rgba(58,53,65,0.12)] gap-[36px] bg-[#FFF]'>
+        <div className='flex justify-between items-center w-auto p-[16px_24px] sm:p-[12px_120px] border-b border-[rgba(58,53,65,0.12)] gap-[36px] bg-[#FFF]'>
             <div className='flex justify-between items-center w-full'>
                 <LogoPlaceholder/>
 
