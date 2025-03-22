@@ -1,5 +1,4 @@
 import React from 'react'
-import AuthHeader from './AuthHeader'
 
 const AuthForm = ({children}) => {
   return (
