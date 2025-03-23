@@ -20,3 +20,31 @@ html, body, #root {
     margin: 0;
     padding: 0;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.tabs-style::after {
+    content: "";
+    height: 6px;
+    width: 0;
+    left: auto;
+    bottom: 22px;
+    border-radius: 10px;
+    background: var(--Tertiary-Default, #F64920);
+    transition: 0.3s;
+}
+
+.tabs-focus:focus-within::after {
+    width: 50%;
+}
+
+.tabs-btn:focus {
+    color: var(--Tertiary-Default, #F64920);
+}
+
+.skip-ink {
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+}

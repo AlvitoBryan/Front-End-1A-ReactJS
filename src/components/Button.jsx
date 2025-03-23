@@ -45,4 +45,21 @@ export const ButtonHero = ({
   )
 }
 
+export const ButtonTab = ({
+  text = "Semua Kelas",
+  bgClass = "bg-[#FFFDF3]",
+  textColor = "text-[var(--text-dark-secondary,rgba(51,_51,_51,_0.68))]",
+  widthButton = "w-fit",
+  textSize = "text-[0.875rem] sm:text-base",
+  // hoverBtn = "hover:bg-[var(--Primary-Default,#3ECF4C)] hover:text-[var(--text-light-primary,#FFF)]",
+  onclick,
+}) => {
+return (
+  <button className={`flex ${widthButton} items-center p-[12px_36px_12px_0px] gap-[6px] ${bgClass} border-none outline-none ${textColor} font-[DM_Sans] ${textSize} font-medium leading-[140%] tracking-[0.2px] transition-colors duration-300 ease-linear cursor-pointer whitespace-nowrap tabs-btn`} onClick={onclick}>
+      {text}
+  </button>
+)
+}
+
+
 export default Button

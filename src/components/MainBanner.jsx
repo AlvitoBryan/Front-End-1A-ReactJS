@@ -6,8 +6,8 @@ export const MainBanner = ({
     heroDesc,
 }) => {
   return (
-      <section className='flex max-w-[1200px] w-full h-[400px] flex-col justify-between items-center rounded-[10px] bg-[url(/src/assets/main_banner1.png)] bg-no-repeat bg-center gap-[24px]' style={{paddingTop: 'min(82px, 11.565%)', paddingBottom: 'min(64px, 11.565%)', paddingLeft: 'min(140px, 4vw)', paddingRight: 'min(140px, 4vw)',}}>
-        <div className='flex h-[215px] flex-col items-center gap-[12px]'>
+      <section className='flex max-w-[1200px] w-full h-[400px] flex-col justify-center items-center rounded-[10px] bg-[url(/src/assets/main_banner1.png)] bg-no-repeat bg-center gap-[24px]' style={{paddingTop: 'min(82px, 11.565%)', paddingBottom: 'min(64px, 11.565%)', paddingLeft: 'min(140px, 4vw)', paddingRight: 'min(140px, 4vw)',}}>
+        <div className='flex h-auto w-full max-w-[920px] flex-col items-center gap-[12px]'>
             <h1 className='text-[var(--text-light-primary,#FFF)] text-center font-[Poppins] font-bold leading-[110%]' style={{fontSize: 'clamp(1.6rem, 4vw, 3rem)'}} >
                 {heroHeading}
             </h1>
