@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "/src/pages/beranda/Homepage.jsx";
-import Login from "/src/pages/login/Login.jsx";
-import Register from "/src/pages/register/Register.jsx";
+import Homepage from "/src/pages/beranda/index.jsx";
+import Login from "/src/pages/login/index.jsx";
+import Register from "/src/pages/register/index.jsx";
 
 import '/src/globals.css'
 
