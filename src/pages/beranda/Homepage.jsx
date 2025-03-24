@@ -8,6 +8,7 @@ import MainSection from "../../components/MainSection";
 import MainTab from "../../components/MainTab";
 import MainTabs from "../../components/MainTabs";
 import Navigation from "../../components/NavigationBar";
+import SecondBanner from "../../components/SecondBanner";
 
 const Homepage = () => {
     return(
@@ -69,12 +70,24 @@ const Homepage = () => {
                     </MainCardWrapper>
 
                     <MainCardWrapperMobile>
-                        <MainCardMobile posterMobile="/src/assets/poster_mobile_1.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_1.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_1.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_3.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_2.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_2.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_3.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_1.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_4.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_5.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_5.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_6.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_6.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_4.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_7.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_9.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_8.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_8.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
+                        <MainCardMobile posterMobile="/src/assets/poster_mobile_9.png" textHeadingMobile="Big 4 Auditor Financial Analyst" tutorAvatarMobile="/src/assets/Avatar_7.png" tutorNameMobile="Jenna Ortega" tutorRoleMobile="Senior Accountant"/>
                     </MainCardWrapperMobile>
 
-
-
                 </MainSection>
+
+                <SecondBanner
+                    heroTitle="NEWSLETTER"
+                    heroHeading="Mau Belajar Lebih Banyak?"
+                    heroDesc="Daftarkan dirimu untuk mendapatkan informasi terbaru dan penawaran spesial dari program-program terbaik hariesok.id"
+                />
             </HomepageMain>
         </>
     )
