@@ -3,7 +3,6 @@ import LogoPlaceholder from "./LogoPlaceholder";
 import Kategori from './Kategori';
 import Profile from './Profile';
 
-
 const Navigation = () => {
 
     const location = useLocation();

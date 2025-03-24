@@ -9,6 +9,7 @@ export const Button = ({
     hoverBtn = "hover:bg-[var(--Primary-Default,#3ECF4C)] hover:text-[var(--text-light-primary,#FFF)]",
     onclick,
 }) => {
+  
   return (
     <button className={`flex ${widthButton} h-[42px] flex-col justify-center items-center rounded-[10px] ${bgClass} border-none outline-none ${textColor} self-stretch font-[DM_Sans] ${textSize} font-bold leading-[140%] tracking-[0.2px] transition-colors duration-300 ease-linear ${hoverBtn}` } onClick={onclick}>
         {text}

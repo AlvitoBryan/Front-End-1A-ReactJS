@@ -3,10 +3,11 @@ import AuthFormContentWrapper from "../../components/AuthFormContentWrapper";
 import AuthHeader from "../../components/AuthHeader";
 import { Button, GoogleLogin } from "../../components/Button";
 import { FormInput, InputPassword } from "../../components/FormInput";
-import Kategori from "../../components/Kategori";
-import Navigation from "../../components/NavigationBar";  
+import Navigation from "../../components/NavigationBar";
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+    const navigate = useNavigate();
     return(
         <>
             <Navigation/>
@@ -23,8 +24,8 @@ const Login = () => {
 
                     ]}
                     buttons={[
-                        <Button />,
-                        <Button text="Daftar" />,
+                        <Button onclick={() => navigate('/')} />,
+                        <Button text="Daftar" onclick={() => navigate('/register')}/>,
                         <GoogleLogin/>  
                     ]}
                 />

@@ -5,8 +5,10 @@ import AuthHeader from "../../components/AuthHeader";
 import { Button, GoogleLogin } from "../../components/Button";
 import { FormInput, InputPassword, InputDropdown, InputNoHP } from "../../components/FormInput";
 import Navigation from "../../components/NavigationBar";
+import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navigation/>
@@ -27,8 +29,8 @@ const Register = () => {
 
                     ]}
                     buttons={[
-                        <Button text="Daftar" />,
-                        <Button />,
+                        <Button text="Daftar" onclick={() => navigate('/')}/>,
+                        <Button onclick={() => navigate('/login')}/>,
                         <GoogleLogin/>  
                     ]}
                 />

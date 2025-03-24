@@ -1,4 +1,5 @@
 import { ButtonTab } from "../../components/Button";
+import Footer from "../../components/Footer";
 import HomepageMain from "../../components/HomepageMain";
 import MainBanner from "../../components/MainBanner";
 import { MainCard, MainCardMobile } from "../../components/MainCard";
@@ -88,7 +89,10 @@ const Homepage = () => {
                     heroHeading="Mau Belajar Lebih Banyak?"
                     heroDesc="Daftarkan dirimu untuk mendapatkan informasi terbaru dan penawaran spesial dari program-program terbaik hariesok.id"
                 />
+
             </HomepageMain>
+            
+            <Footer/>
         </>
     )
 }
