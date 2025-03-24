@@ -8,9 +8,9 @@ export const MainCard = ({
     tutorName,
     tutorRole,
     tutorCompany,
-    starRatingFull = "/src/assets/Star.svg",
-    starRatingHalf = "/src/assets/Star_half.svg",
-    starRatingEmpty = "/src/assets/Star_empty.svg",
+    starRatingFull = "/images/Star.svg",
+    starRatingHalf = "/images/Star_half.svg",
+    starRatingEmpty = "/images/Star_empty.svg",
 }) => {
   return (
     <div className='flex h-auto w-full max-w-[384px] p-[20px] flex-col items-start gap-[16px] shrink-0 rounded-[10px] border border-[var(--Other-Border,rgba(58,_53,_65,_0.12))] bg-[var(--Other-Primary-Background,#FFF)]'>
@@ -70,9 +70,9 @@ export const MainCardMobile = ({
     tutorAvatarMobile,
     tutorNameMobile,
     tutorRoleMobile,
-    starRatingFull = "/src/assets/Star.svg",
-    starRatingHalf = "/src/assets/Star_half.svg",
-    starRatingEmpty = "/src/assets/Star_empty.svg",
+    starRatingFull = "/images/Star.svg",
+    starRatingHalf = "/images/Star_half.svg",
+    starRatingEmpty = "/images/Star_empty.svg",
 }) => {
   return (
     <div className='flex w-full p-[16px] flex-col items-start gap-[8px] rounded-[10px] border border-[var(--Other-Border,rgba(58,53,65,0.12))] bg-[var(--Other-Primary-Background,#FFF)]'>

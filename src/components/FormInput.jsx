@@ -66,7 +66,7 @@ export const InputPassword = ({
         ></input>
 
         <button type='button' className='w-[24px] h-[24px] border-none outline-none bg-[#FFF] cursor-pointer'>
-            <img src='/src/assets/toggle-password.svg' className='max-w-none' />
+            <img src='/images/toggle-password.svg' className='max-w-none' />
         </button>
       </div>
     </div>
@@ -101,7 +101,7 @@ return (
       ></input>
 
       <button type='button' className='w-[24px] h-[24px] border-none outline-none bg-[#FFF] cursor-pointer'>
-          <img src='src/assets/keyboard_arrow_down.svg' className='max-w-none' />
+          <img src='/images/keyboard_arrow_down.svg' className='max-w-none' />
       </button>
     </div>
   </div>
@@ -112,8 +112,8 @@ export const InputNoHP = ({
   label = 'No HP',
   name = 'noHp',
   type = 'text',
-  flagImg = '/src/assets/Indonesia (ID).svg',
-  iconImg = '/src/assets/keyboard_arrow_down.svg',
+  flagImg = '/images/Indonesia_(ID).svg',
+  iconImg = '/images/keyboard_arrow_down.svg',
   kodeNegara = '+62',
   required = true,
 

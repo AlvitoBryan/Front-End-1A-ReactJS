@@ -6,7 +6,7 @@ const SecondBanner = ({
   heroDesc,
 }) => {
   return (
-    <section className='flex max-w-[1200px] w-full h-[400px] pr-[20px] pl-[20px] flex-col justify-center items-center rounded-[4px] bg-[url(/src/assets/main_banner2.png)] secondBanner-boxShadow bg-no-repeat bg-center'>
+    <section className='flex max-w-[1200px] w-full h-[400px] pr-[20px] pl-[20px] flex-col justify-center items-center rounded-[4px] bg-[url(/images/main_banner2.png)] secondBanner-boxShadow bg-no-repeat bg-center'>
         <div className='flex flex-col w-full justify-center items-center gap-[40px]'>
           <div className='flex w-full flex-col justify-center items-center gap-[4px]'>
               <h3 className='text-[var(--text-light-secondary,#C1C2C4)] text-center font-[DM_Sans] text-base sm:text-[1.125rem] font-medium leading-[140%] tracking-[0.2px]'>{heroTitle}</h3>

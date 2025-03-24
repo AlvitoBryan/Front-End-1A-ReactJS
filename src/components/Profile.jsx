@@ -9,8 +9,8 @@ const Profile = () => {
   };
   return (
     <picture onClick={handleProfileClick} className='cursor-pointer'>
-      <source media="(max-width: 640px)" srcSet="/src/assets/sidebar-btn.svg" />
-      <img src="/src/assets/Avatar.png" className="max-w-none" alt="Profile" />
+      <source media="(max-width: 640px)" srcSet="/images/sidebar-btn.svg" />
+      <img src="/images/Avatar.png" className="max-w-none" alt="Profile" />
     </picture>
   )
 }

@@ -19,7 +19,7 @@ export const Button = ({
 
 export const GoogleLogin = ({
     text = "Masuk dengan Google",
-    img = "/src/assets/logos_google-icon.svg",
+    img = "/images/logos_google-icon.svg",
     hoverBtn = "hover:border-[1px] hover:border-[var(--Primary-Default,#3ECF4C)] hover:shadow-[0_0_0_4px_rgba(62,207,76,0.3)]"
 }) => {
     return (

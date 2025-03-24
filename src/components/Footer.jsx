@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='hidden lg:flex justify-between items-start self-stretch'>
             <div className='flex flex-col items-start gap-[16px] self-stretch'>
                 <div className='flex w-[204px] h-[56px] p-[13px_5.97px_12.92px_5px] justify-center items-center'>
-                    <img className='w-[193.03px] h-[30.08px] shrink-0' src='/src/assets/Logo.svg'/>
+                    <img className='w-[193.03px] h-[30.08px] shrink-0' src='images/Logo.svg'/>
                 </div>
 
                 <div className='flex flex-col items-start gap-[12px]'>
@@ -57,10 +57,10 @@ const Footer = () => {
             <h3 className='text-[var(--text-dark-secondary,rgba(51,51,51,0.68))] font-[DM_Sans] text-base font-medium leading-[140%] tracking-[0.2px]'>@2023 Gerobak Sayur All Rights Reserved.</h3> 
 
             <div className='flex items-start gap-[15px]'>
-                <img className='w-[35px] h-[35px]' src='/src/assets/social_linkin.svg'/>
-                <img className='w-[35px] h-[35px]' src='/src/assets/social_facebook.svg'/>
-                <img className='w-[35px] h-[35px]' src='/src/assets/social_instagram.svg'/>
-                <img className='w-[35px] h-[35px]' src='/src/assets/social_x.svg'/>
+                <img className='w-[35px] h-[35px]' src='images/social_linkin.svg'/>
+                <img className='w-[35px] h-[35px]' src='images/social_facebook.svg'/>
+                <img className='w-[35px] h-[35px]' src='images/social_instagram.svg'/>
+                <img className='w-[35px] h-[35px]' src='images/social_x.svg'/>
             </div>
         </div>
 
@@ -69,7 +69,7 @@ const Footer = () => {
         <div className='flex lg:hidden flex-col items-start gap-[16px] self-stretch'>
             <div className='flex flex-col items-start gap-[16px] self-stretch'>
                 <div className='flex w-[170px] h-[36px] p-[5.442px_4.603px_5.375px_3.79px] justify-center items-center'>
-                    <img className='w-[161.607px] h-[25.183px] shrink-0' src='/src/assets/Logo.svg'/>
+                    <img className='w-[161.607px] h-[25.183px] shrink-0' src='images/Logo.svg'/>
                 </div>
 
                 <div className='flex flex-col items-start gap-[8px] self-stretch'>
@@ -83,21 +83,21 @@ const Footer = () => {
                 <div className='flex flex-col items-start gap-[12px] self-stretch'>
                     <div className='flex justify-between items-start self-stretch'>
                         <h4 className='text-[var(--text-dark-primary,#222325)] font-[Open_Sans] text-base font-bold leading-[140%] tracking-[0.2px]'>Perusahaan</h4>
-                        <img className='flex items-start w-[24px] h-[24px]' src='/src/assets/KeyboardArrowRight.svg'/>
+                        <img className='flex items-start w-[24px] h-[24px]' src='images/KeyboardArrowRight.svg'/>
                     </div>
                 </div>
                 
                 <div className='flex flex-col items-start gap-[12px] self-stretch'>
                     <div className='flex justify-between items-start self-stretch'>
                         <h4 className='text-[var(--text-dark-primary,#222325)] font-[Open_Sans] text-base font-bold leading-[140%] tracking-[0.2px]'>Perusahaan</h4>
-                        <img className='flex items-start w-[24px] h-[24px]' src='/src/assets/KeyboardArrowRight.svg'/>
+                        <img className='flex items-start w-[24px] h-[24px]' src='images/KeyboardArrowRight.svg'/>
                     </div>
                 </div>
                 
                 <div className='flex flex-col items-start gap-[12px] self-stretch'>
                     <div className='flex justify-between items-start self-stretch'>
                         <h4 className='text-[var(--text-dark-primary,#222325)] font-[Open_Sans] text-base font-bold leading-[140%] tracking-[0.2px]'>Komunitas</h4>
-                        <img className='flex items-start w-[24px] h-[24px]' src='/src/assets/KeyboardArrowRight.svg'/>
+                        <img className='flex items-start w-[24px] h-[24px]' src='images/KeyboardArrowRight.svg'/>
                     </div>
                 </div>
             </div>
@@ -105,10 +105,10 @@ const Footer = () => {
 
             <div className='flex flex-col items-start gap-[12px] self-stretch'>
                 <div className='flex items-start gap-[15px]'>
-                    <img className='w-[35px] h-[35px]' src='/src/assets/social_linkin.svg'/>
-                    <img className='w-[35px] h-[35px]' src='/src/assets/social_facebook.svg'/>
-                    <img className='w-[35px] h-[35px]' src='/src/assets/social_instagram.svg'/>
-                    <img className='w-[35px] h-[35px]' src='/src/assets/social_x.svg'/>
+                    <img className='w-[35px] h-[35px]' src='images/social_linkin.svg'/>
+                    <img className='w-[35px] h-[35px]' src='images/social_facebook.svg'/>
+                    <img className='w-[35px] h-[35px]' src='images/social_instagram.svg'/>
+                    <img className='w-[35px] h-[35px]' src='images/social_x.svg'/>
                 </div>
 
                 <h3 className='text-[var(--text-dark-secondary,rgba(51,51,51,0.68))] font-[DM_Sans] text-base font-medium leading-[140%] tracking-[0.2px]'>@2023 Gerobak Sayur All Rights Reserved.</h3>
