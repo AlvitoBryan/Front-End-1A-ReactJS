@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AuthForm from "../../components/AuthForm";
 import AuthFormContentWrapper from "../../components/AuthFormContentWrapper";
 import AuthHeader from "../../components/AuthHeader";
@@ -8,6 +9,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const navigate = useNavigate();
+    useEffect(() => {
+            document.title = "Login | videobelajar"
+        })
     return(
         <>
             <Navigation/>

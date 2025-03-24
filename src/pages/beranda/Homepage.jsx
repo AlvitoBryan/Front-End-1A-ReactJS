@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ButtonTab } from "../../components/Button";
 import Footer from "../../components/Footer";
 import HomepageMain from "../../components/HomepageMain";
@@ -12,6 +13,10 @@ import Navigation from "../../components/NavigationBar";
 import SecondBanner from "../../components/SecondBanner";
 
 const Homepage = () => {
+    useEffect(() => {
+        document.title = "Homepage | videobelajar"
+    })
+
     return(
         <>
             <Navigation/>

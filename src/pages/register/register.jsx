@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AuthForm from "../../components/AuthForm";
 import AuthFormContentWrapper from "../../components/AuthFormContentWrapper";
 import AuthHeader from "../../components/AuthHeader";
@@ -9,6 +9,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+          document.title = "Register | videobelajar"
+      })
   return (
     <>
       <Navigation/>
